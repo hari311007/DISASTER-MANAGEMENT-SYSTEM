@@ -1,4 +1,4 @@
-# Disaster Relief System (C, Data Structures)
+# Disaster Relief System
 
 ## Build & Run
 (main.c #includes all module .c files, so only main.c is compiled.)

@@ -5,8 +5,8 @@
  * The team at the front takes the next medical emergency, then
  * rotates to the rear, so every team gets work in turn.
  */
-
-#define CQ_MAX 5
+/*max value to be used*/
+#define CQ_MAX 5 
 
 typedef struct {
     int  teamId;

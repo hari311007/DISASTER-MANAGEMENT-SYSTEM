@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>   //used for quick name search
 #include <stdlib.h>
 #include <string.h>
 #include "trie.h"
@@ -17,7 +17,7 @@ static int char_index(char c)
     return -1;
 }
 
-static TrieNode *new_node(void)
+static TrieNode *new_node(void)  //allocation of memory and creation of newnode
 {
     return (TrieNode *)calloc(1, sizeof(TrieNode));
 }
